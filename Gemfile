@@ -10,7 +10,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'xray-rails'
 gem 'materialize-sass'
 gem 'slim-rails'
 gem 'simple_form'
@@ -31,6 +30,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'xray-rails'
   gem 'sqlite3'
   gem 'web-console', '~> 2.0'
 
