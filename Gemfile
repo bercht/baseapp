@@ -17,6 +17,12 @@ gem 'slim-rails'
 gem 'simple_form'
 gem 'materialize-form'
 
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+
+gem 'figaro'
+
 
 
 group :development, :test do

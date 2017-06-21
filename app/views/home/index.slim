@@ -1,3 +1,8 @@
 section
   .container
     h1 Welcome
+    p Hello #{current_client.email}
+    - if current_client.image.present?
+      = image_tag(current_client.image, size: "40")
+
+    = link_to "Sair", destroy_client_session_path, method: :delete
